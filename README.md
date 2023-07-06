@@ -46,6 +46,25 @@
   - Data Movement
   - Data Transformation
   - Data Control
-  -  
-
-
+## Integration Runtimes
+- Data Flow execution
+- Data Movement execution
+- Dispatch of Activities
+- SSIS Package execution
+## Linked Services and Datasets
+- Linked Services are like connection strings
+- Two types:
+  - Data Stores
+  - External Compute 
+- Datasets are about data structure
+  - SQL Database/Table
+  - Blob Storage/File
+## Triggers
+- Schedule: Periodic, forward looking only (next schedule time), runs on dates configured, fire and forget 
+- Tumbling Window: Time-sliced - run every X number of hours, supports backfill, runs at fixed interval, retry, concurrency, system variables
+- Event-based: Fired on Blob creation or deletion
+## Copy Activity
+- More than just copy - serialization, compression, column mapping
+- 83 connectors and counting
+- 6 different formats
+- Enterprise features - incremental copy, resume from last failed run, etc.
