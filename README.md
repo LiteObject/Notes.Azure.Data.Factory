@@ -37,10 +37,10 @@
 ## ADF Main Elements
 - Activity: Copy, Move, Transform, etc.
 - Pipeline: Logical grouping of activities - unit of work
-- Integration Runtime: Computing infrastructure of ADF
+- Integration Runtime: Compute infrastructure that executes the activities within a pipeline
 - Trigger: Power switch
-- Linked Service: Where data is? A connection to source, Blog Storage, SQL Server, etc.
-- Dataset: Data to work with. File, SQL Table, etc.
+- Linked Service: Where data is? A connection to source, Blog Storage, SQL Server, Amazon S3, Salesforce, etc.
+- Dataset: data structures or files that are ingested or processed by Azure Data Factory, such as tables, blobs, or files.
 
 
 
