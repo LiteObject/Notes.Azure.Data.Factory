@@ -41,6 +41,11 @@
 - Trigger: Power switch
 - Linked Service: Where data is? A connection to source, Blog Storage, SQL Server, Amazon S3, Salesforce, etc.
 - Dataset: data structures or files that are ingested or processed by Azure Data Factory, such as tables, blobs, or files.
-
+## Activities & Pipelines
+- Three types of activities:
+  - Data Movement
+  - Data Transformation
+  - Data Control
+  -  
 
 
